@@ -1,0 +1,9 @@
+A simple R streaming MapReduce example. It reads form stdin and outputs to stdout.
+
+Taken from http://wiki.abhishek-tiwari.com/html/r-programming/r-hadoop-mapreduce.html
+
+Examples
+--------
+
+    cat sample_text.txt | ./mapper.R | ./reducer.R
+
